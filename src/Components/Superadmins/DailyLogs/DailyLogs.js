@@ -3,7 +3,10 @@ import './DailyLogs.css';
 import Supernavbar from '../Supernavbar/Supernavbar';
 
 const DailyLogPage = () => {
- 
+  
+  const dailyLogData = [
+    
+  ];
 
   return (
     <div>
@@ -19,18 +22,16 @@ const DailyLogPage = () => {
               <th>Amount</th>
             </tr>
           </thead>
-          {/* <tbody>
-            {dailyLogData.map((log) =>
-              log.communities.map((community, communityIndex) => (
-                <tr key={`${log.date}-${communityIndex}`}>
-                  <td>{'Employee Name'}</td> 
-                  <td>{`${log.date}`}</td>
-                  <td>{community.name}</td>
-                  <td>{community.waste['Biodegradable']}</td>
-                </tr>
-              ))
-            )}
-          </tbody> */}
+          <tbody>
+            {dailyLogData.map((log, index) => (
+              <tr key={index}>
+                <td>{log.employeeName}</td>
+                <td>{log.dateTime}</td>
+                <td>{log.location}</td>
+                <td>{log.amount}</td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     </div>
