@@ -1,0 +1,61 @@
+/* UsersChart.css */
+
+/* Style for the container div */
+.UsersChart {
+    text-align: center;
+  }
+  
+  /* Style for the chart title */
+  .UsersChart h2 {
+    margin-bottom: 10px;
+    color: #333; /* Darken the title color */
+  }
+  
+  /* Style for the chart container */
+  .UsersChart .chart-container {
+    width: 40%; /* Set the width to half of the page */
+    margin: 20px auto; /* Center the chart container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px; /* Add border-radius for a rounded appearance */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Style for the chart */
+  .UsersChart .recharts-surface {
+    border-radius: 8px; /* Match the border-radius of the container */
+  }
+  
+  /* Style for the legend */
+  .UsersChart .recharts-legend {
+    margin-top: 10px;
+  }
+  
+  /* Style for tooltip */
+  .UsersChart .recharts-tooltip {
+    border-radius: 4px; /* Add a slight border-radius to the tooltip */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the tooltip */
+    padding: 8px;
+    background-color: #fff; /* Set a white background color for the tooltip */
+    color: #333; /* Darken the text color of the tooltip */
+  }
+  
+  /* Style for tooltip label */
+  .UsersChart .recharts-tooltip-label {
+    color: #555; /* Dim the label color */
+  }
+  
+  /* Style for tooltip value */
+  .UsersChart .recharts-tooltip-item-value {
+    color: #333; /* Darken the value color */
+  }
+  
+  /* Style for bars */
+  .UsersChart .recharts-bar {
+    fill: #6cb2eb; /* Change the bar color */
+    transition: fill 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .UsersChart .recharts-bar:hover {
+    fill: #4a90e2; /* Change the bar color on hover */
+  }
+  

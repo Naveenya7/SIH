@@ -1,0 +1,43 @@
+/* UserGrowthChart.css */
+.chart-container {
+    margin: 20px auto;
+    /* text-align: center; */
+   
+  }
+  
+  .chart-container h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 230px;
+  }
+  
+  .chart-container line {
+    stroke: black;
+  }
+  
+  .chart-container .recharts-tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .chart-container .recharts-tooltip-label {
+    color: #000;
+  }
+  
+  .chart-container .recharts-tooltip-item {
+    color: #000;
+  }
+  
+  .chart-container .recharts-legend {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .chart-container .recharts-legend-item-text {
+    fill: #000;
+  }
+  

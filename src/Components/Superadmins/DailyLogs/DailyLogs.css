@@ -1,0 +1,47 @@
+/* DailyLogs.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table horizontally */
+    border-radius: 8px;
+    
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid rgb(34, 126, 34); /* Set border color to rgb(34, 126, 34) */
+    padding: 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Dark green */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #f8f8f8; /* Light gray */
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Lighter gray on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Additional styles for better aesthetics */
+h1 {
+    color: rgb(34, 126, 34);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Optional: Add some padding to the table container */
+.daily-log-page {
+    padding: 20px;
+}

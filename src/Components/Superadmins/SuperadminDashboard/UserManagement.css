@@ -1,0 +1,24 @@
+.user-management-container {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .user-management-container h4 {
+    color: #333;
+  }
+  
+  .user-management-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-management-container li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Add more styles based on your needs */
+  

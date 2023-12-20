@@ -1,0 +1,61 @@
+/* CommunitiesChart.css */
+
+/* Style for the container div */
+.CommunitiesChart {
+    text-align: center;
+  }
+  
+  /* Style for the chart title */
+  .CommunitiesChart h2 {
+    margin-bottom: 10px;
+    color: #333; /* Darken the title color */
+  }
+  
+  /* Style for the chart container */
+  .CommunitiesChart .chart-container {
+    width: 40%; /* Set the width to half of the page */
+    margin: 20px auto; /* Center the chart container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px; /* Add border-radius for a rounded appearance */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Style for the chart */
+  .CommunitiesChart .recharts-surface {
+    border-radius: 8px; /* Match the border-radius of the container */
+  }
+  
+  /* Style for the legend */
+  .CommunitiesChart .recharts-legend {
+    margin-top: 10px;
+  }
+  
+  /* Style for tooltip */
+  .CommunitiesChart .recharts-tooltip {
+    border-radius: 4px; /* Add a slight border-radius to the tooltip */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the tooltip */
+    padding: 8px;
+    background-color: #fff; /* Set a white background color for the tooltip */
+    color: #333; /* Darken the text color of the tooltip */
+  }
+  
+  /* Style for tooltip label */
+  .CommunitiesChart .recharts-tooltip-label {
+    color: #555; /* Dim the label color */
+  }
+  
+  /* Style for tooltip value */
+  .CommunitiesChart .recharts-tooltip-item-value {
+    color: #333; /* Darken the value color */
+  }
+  
+  /* Style for bars */
+  .CommunitiesChart .recharts-bar {
+    fill: #8884d8; /* Change the bar color */
+    transition: fill 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .CommunitiesChart .recharts-bar:hover {
+    fill: #634d8d; /* Change the bar color on hover */
+  }
+  

@@ -1,0 +1,80 @@
+/* CommunityManagement.css */
+
+.community-management-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+   max-height: 500px; 
+  overflow-y: auto;  
+}
+
+h2 {
+  color: rgb(34, 126, 34);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new-community-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.new-community-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.new-community-form button {
+  background-color: rgb(34, 126, 34);
+  color: #fff;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.new-community-form button:hover {
+  background-color: #2a9442; 
+}
+
+.community-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.community-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.community-list button {
+  background-color: #ff3b3b;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.community-list button:hover {
+  background-color: #d63030; 
+}

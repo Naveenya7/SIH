@@ -1,0 +1,64 @@
+/* HelpAndSupport.css */
+
+.help-support-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .help-support-container header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .help-support-container h1 {
+    color: rgb(34, 126, 34);
+    font-size: 2.5em;
+  }
+  
+  .help-support-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .contact-section,
+  .knowledge-base,
+  .submit-ticket {
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .help-support-container h2 {
+    color: rgb(34, 126, 34);
+  }
+  
+  .contact-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-option {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .help-support-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(34, 126, 34);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .help-support-container a:hover {
+    background-color: #2a9442;
+  }
+  .ticket{
+    align-items: center;
+  }
+  

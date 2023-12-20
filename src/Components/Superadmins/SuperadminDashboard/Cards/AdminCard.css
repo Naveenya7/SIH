@@ -1,0 +1,74 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  color: rgb(34, 126, 34);
+}
+
+.card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Add margin at the bottom of the chart container */
+}
+
+.pie-chart {
+  width: 100%;
+  height: auto;
+}
+
+.recharts-legend {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.recharts-legend-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.recharts-legend-item-text {
+  font-size: 14px;
+}
+

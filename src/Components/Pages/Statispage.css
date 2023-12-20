@@ -1,0 +1,16 @@
+
+.statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .graphs-container {
+    display: flex;
+  }
+  
+  .linegraph,
+  .bargraph {
+    margin: 10px; 
+  }
+  
